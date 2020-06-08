@@ -1,15 +1,12 @@
 {
   "name": "nodejs-app",
   "version": "1.0.0",
-  "description": "s6c8tl1-nodejs",
+  "description": "Hello World App",
   "main": "server.js",
-  "scripts": {
-  "start": "node app.js"
-},
   "author": "Red Hat Training",
   "license": "ASL",
   "dependencies": {
-    "express": "4.x",
+    "express": "4.20",
     "html-errors": "latest"
   }
 }

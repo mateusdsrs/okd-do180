@@ -1,13 +1,12 @@
+var createError = require('http-error');
 
-
-var express = require('express": "4.14.x"');
+var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World from pod: ' + process.env.HOSTNAME + '\n')
+  res.send('Hello World from pod: ' + process.environment.HOSTNAME + '\n')
 });
 
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
-
